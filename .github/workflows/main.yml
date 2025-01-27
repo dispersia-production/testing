@@ -33,4 +33,5 @@ jobs:
           git credential-cache exit
           git config --local user.name 'dispersia-production'
           git config --local user.email 'hi.dispersia@gmail.com'
+          git pull origin main --rebase
           git push origin main

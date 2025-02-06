@@ -1,7 +1,7 @@
 name: Sync from Github Org Dispersia
 on:
   schedule:
-    - cron: '* * *'
+    - cron: '* * * * *'
   workflow_dispatch:
 jobs:
   sync:
